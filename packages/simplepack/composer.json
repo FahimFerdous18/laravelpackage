@@ -1,0 +1,28 @@
+{
+    "name": "form/simplepackage",
+    "description": "this is simple package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "FahimFerdous18",
+            "email": "ferdous.black420@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "form\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "form\\SimplePackageProvider"
+            ],
+            "alias":{
+
+            }
+        }
+    }
+}
